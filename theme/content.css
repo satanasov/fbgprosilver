@@ -33,7 +33,7 @@ ul.topiclist dt, ul.topiclist dd {
 ul.topiclist dt {
 	width: 100%;
 	margin-right: -440px;
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 ul.topiclist.missing-column dt {
@@ -111,7 +111,7 @@ li.header dt, li.header dd {
 	margin: 2px 0 4px 0;
 	padding-top: 2px;
 	padding-bottom: 2px;
-	font-size: 1em;
+	font-size: 1.1em;
 	font-family: Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 }
@@ -199,7 +199,7 @@ dl.icon dt li {
 
 dd.lastpost, dd.redirect, dd.moderation, dd.time, dd.info {
 	width: 250px;
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 dd.redirect {
@@ -223,7 +223,7 @@ dd.option {
 	width: 125px;
 	line-height: 200%;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 /* Post body styles
@@ -237,7 +237,7 @@ dd.option {
 }
 
 .postbody .ignore {
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 .postbody h3.first {
@@ -332,7 +332,7 @@ dd.option {
 	overflow: hidden;
 	line-height: 1.4em;
 	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
-	font-size: 1em;
+	font-size: 1.1em;
 	padding-bottom: 1px;
 }
 
@@ -397,7 +397,7 @@ p.author {
 	margin-bottom: 0.6em;
 	padding: 0 0 5px 0;
 	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
-	font-size: 1em;
+	font-size: 1.1em;
 	line-height: 1.2em;
 	clear: both;
 }
@@ -441,7 +441,7 @@ dd .signature {
 	width: auto;
 	margin-top: 1.5em;
 	padding-top: 0.2em;
-	font-size: 1em;
+	font-size: 1.1em;
 	border-top: 1px dashed transparent;
 	clear: left;
 	line-height: 130%;
@@ -468,7 +468,7 @@ blockquote {
 
 blockquote blockquote {
 	/* Nested quotes */
-	font-size: 1em;
+	font-size: 0.93em;
 	margin: 0.5em 1px 0 15px;
 }
 
