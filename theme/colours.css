@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-	color: #28313F;
+	color: #FFFFFF;
 }
 
 h3 {
@@ -69,17 +69,12 @@ hr {
 }
 
 .forumbg {
-	background-color: #12A3EB;
-	background-image: url("./images/bg_header.png");
+	background-color: #105289;
+	/*background-image: url("./images/bg_header.png");*/
 }
 
 .panel {
-	border: 1px solid #105289;
-	background: #222; /* Show a solid color for older browsers */
-	background: -o-linear-gradient(#272727, #131313);
-	background: -webkit-linear-gradient(#272727, #131313);
-	background: -moz-linear-gradient(#272727, #131313);
-	background: linear-gradient(#272727, #131313);
+	background: #131313; /* Show a solid color for older browsers */
 	color: #FFF;
 }
 
@@ -178,7 +173,7 @@ table.info tbody th {
 /* Misc layout styles
 ---------------------------------------- */
 dl.details dt {
-	color: #000000;
+	color: #FFFFFF;
 }
 
 dl.details dd {
@@ -632,6 +627,8 @@ fieldset.polls dd div {
 
 .online {
 	background-image: url("./en/icon_user_online.png");
+	background-position: 100% 0;
+	background-repeat: no-repeat;
 }
 
 dd.profile-warnings {
@@ -643,16 +640,16 @@ dd.profile-warnings {
 Colours and backgrounds for buttons.css
 -------------------------------------------------------------- */
 .button {
-	border-color: #C7C3BF;
-	background-color: #FFFFFF;
-	background-image: -moz-linear-gradient(top, #FFFFFF, #E9E9E9);
-	background-image: -webkit-linear-gradient(top, #FFFFFF, #E9E9E9);
-	background-image: -o-linear-gradient(top, #FFFFFF, #E9E9E9);
-	background-image: linear-gradient(to bottom, #FFFFFF, #E9E9E9);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#E9E9E9')";
-	box-shadow: 0 0 0 1px #FFFFFF inset;
-	-webkit-box-shadow: 0 0 0 1px #FFFFFF inset;
-	color: #D31141;
+	border-color: #105289;
+	background-color: #272727;
+	background-image: -moz-linear-gradient(top, #131313, #272727, #131313);
+	background-image: -webkit-linear-gradient(top, #131313, #272727, #131313);
+	background-image: -o-linear-gradient(top, #131313, #272727, #131313);
+	background-image: linear-gradient(to bottom, #131313, #272727, #131313);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#272727', EndColorStr='#131313')";
+	box-shadow: 0 0 0 1px #000 inset;
+	-webkit-box-shadow: 0 0 0 1px #000 inset;
+	color: #ffffff;
 }
 
 .dropdown-select {
@@ -661,12 +658,12 @@ Colours and backgrounds for buttons.css
 
 .button:hover, .dropdown-visible .dropdown-select, .nojs .dropdown-container:hover .dropdown-select {
 	border-color: #0a8ed0;
-	background-image: -moz-linear-gradient(top, #E9E9E9, #FFFFFF);
-	background-image: -webkit-linear-gradient(top, #E9E9E9, #FFFFFF);
-	background-image: -o-linear-gradient(top, #E9E9E9, #FFFFFF);
-	background-image: linear-gradient(to bottom, #E9E9E9, #FFFFFF);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#E9E9E9', EndColorStr='#FFFFFF')";
-	text-shadow: 1px 1px 0 #FFFFFF, -1px -1px 0 #FFFFFF, -1px -1px 0 rgba(188, 42, 77, 0.2);
+	background-image: -moz-linear-gradient(top, #272727, #131313, #272727);
+	background-image: -webkit-linear-gradient(top, #272727, #131313, #272727);
+	background-image: -o-linear-gradient(top, #272727, #131313, #272727);
+	background-image: linear-gradient(to bottom, #272727, #131313, #272727);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#272727', EndColorStr='#131313')";
+	text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px -1px 0 rgba(188, 42, 77, 0.2);
 }
 
 .dropdown-select:after	{ border-color: #DADADA; }
@@ -885,42 +882,28 @@ ul.cplist {
 
 /* Link styles for the sub-section links */
 #navigation a {
-	color: #333;
-	background: #B4C4D1;
-	background: -moz-linear-gradient(left, #B4C4D1 50%, #CADCEB 100%);
-	background: -webkit-gradient(left top, right top, color-stop(50%, #B4C4D1), color-stop(100%, #CADCEB));
-	background: -webkit-linear-gradient(left, #B4C4D1 50%, #CADCEB 100%);
-	background: -o-linear-gradient(left, #B4C4D1 50%, #CADCEB 100%);
-	background: -ms-linear-gradient(left, #B4C4D1 50%, #CADCEB 100%);
-	background: linear-gradient(to right, #B4C4D1 50%, #CADCEB 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B4C4D1', endColorstr='#CADCEB', GradientType=1 );
+	color: #f0f0f0;
+	background: #272727;
 }
 
 .rtl #navigation a {
-	background: #B4C4D1;
-	background: -moz-linear-gradient(left, #CADCEB 0%, #B4C4D1 50%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, #CADCEB), color-stop(50%, #B4C4D1));
-	background: -webkit-linear-gradient(left, #CADCEB 0%, #B4C4D1 50%);
-	background: -o-linear-gradient(left, #CADCEB 0%, #B4C4D1 50%);
-	background: -ms-linear-gradient(left, #CADCEB 0%, #B4C4D1 50%);
-	background: linear-gradient(to right, #CADCEB 0%, #B4C4D1 50%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CADCEB', endColorstr='#B4C4D1', GradientType=1 );
+	color: #f0f0f0;
+	background: #272727;
 }
 
 #navigation a:hover {
-	background: #AABAC6;
-	color: #BC2A4D;
-	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background: #131313;
+	color: #c3c3c3;
 }
 
 #navigation #active-subsection a {
-	background: #F9F9F9;
-	color: #D31141;
-	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background: #131313;
+	font-weight: bold;
+	color: #ffffff;
 }
 
 #navigation #active-subsection a:hover {
-	color: #D31141;
+	color: #f3f3f3;
 }
 
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
@@ -933,11 +916,12 @@ ul.cplist {
 /* Preferences pane layout
 ----------------------------------------*/
 .panel-container h2 {
-	color: #333333;
+	color: #ffffff;
 }
 
 .panel-container .panel {
-	background-color: #F9F9F9;
+	background: #131313; /* Show a solid color for older browsers */
+	color: #FFF;
 }
 
 #cp-main .pm {
@@ -946,7 +930,7 @@ ul.cplist {
 
 /* Friends list */
 .cp-mini {
-	background-color: #eef5f9;
+	background-color: #131313;
 }
 
 dl.mini dt {
@@ -1000,13 +984,13 @@ Colours and backgrounds for forms.css
 /* General form styles
 ----------------------------------------*/
 select {
-	border-color: #666666;
-	background-color: #FAFAFA;
-	color: #000;
+	color: #D0D0D0;
+	border: 1px solid #2370B6;
+	background-color: #000;
 }
 
 label {
-	color: #F0F0F0;
+	color: #D0D0D0;
 }
 
 option.disabled-option {
@@ -1016,7 +1000,7 @@ option.disabled-option {
 /* Definition list layout for forms
 ---------------------------------------- */
 dd label {
-	color: #333;
+	color: #D0D0D0;
 }
 
 fieldset.fields1 {
@@ -1178,11 +1162,11 @@ input.disabled {
 }
 
 .dropdown .pointer-inner {
-	border-color: #FFF transparent;
+	border-color: #105289 transparent;
 }
 
 .dropdown-extended .pointer-inner {
-	border-color: #F1F8FF transparent;
+	border-color: #105289 transparent;
 }
 
 ul.linklist li.responsive-menu a.responsive-menu-link:before {
@@ -1194,11 +1178,14 @@ ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist 
 }
 
 .dropdown .dropdown-contents {
-	background: #fff;
+	background: #105289;
 	border-color: #b9b9b9;
 	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
+.dropdown .dropdown-contents a {
+	color: #fff;
+}
 .dropdown-up .dropdown-contents {
 	box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
 }
@@ -1213,9 +1200,15 @@ ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist 
 
 /* Notifications
 ---------------------------------------- */
-
+.notification_list .header {
+	background: #105289;
+	background-image: -moz-linear-gradient(top, #105289, #2370B6);
+	background-image: -webkit-linear-gradient(top, #105289, #2370B6);
+	background-image: -o-linear-gradient(top, #105289, #2370B6);
+	background-image: linear-gradient(to bottom, #105289, #2370B6);
+}
 .notification_list p.notification-time {
-	color: #4C5D77;
+	color: #4C5D77;active-subsection
 }
 
 li.notification-reported strong, li.notification-disapproved strong {
