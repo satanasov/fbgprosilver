@@ -1018,7 +1018,9 @@ fieldset.fields2 dl:hover dt label {
 
 /* Quick-login on index page */
 fieldset.quick-login input.inputbox {
-	background-color: #F2F3F3;
+	color: #D0D0D0;
+	border: 1px solid #2370B6;
+	background-color: #000;
 }
 
 /* Posting page styles
