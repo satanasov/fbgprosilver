@@ -26,6 +26,9 @@ body {
 
 /* Common block wrappers
 ----------------------------------------*/
+.headerbar {
+	height: 50px;
+}
 .headerbar, .navbar, .forabg, .forumbg, .post, .panel {
 	border-radius: 0;
 	margin-left: -5px;

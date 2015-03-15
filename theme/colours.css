@@ -49,7 +49,7 @@ hr {
 
 .headerbar {
 	background-color: #12A3EB;
-	background-image: url("./images/bg_header.png");
+	background-image: url("./backgrounds/11063393_806104269427350_1106377408_n.jpg") no-repeat;
 	color: #FFFFFF;
 }
 
@@ -1018,9 +1018,7 @@ fieldset.fields2 dl:hover dt label {
 
 /* Quick-login on index page */
 fieldset.quick-login input.inputbox {
-	color: #D0D0D0;
-	border: 1px solid #2370B6;
-	background-color: #000;
+	background-color: #F2F3F3;
 }
 
 /* Posting page styles
