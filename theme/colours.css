@@ -49,7 +49,6 @@ hr {
 
 .headerbar {
 	background-color: #12A3EB;
-	background-image: url("./backgrounds/11063393_806104269427350_1106377408_n.jpg") no-repeat;
 	color: #FFFFFF;
 }
 
@@ -188,9 +187,9 @@ dl.details dd {
 ---------------------------------------- */
 
 .pagination li a {
-	color: #5C758C;
-	background-color: #ECEDEE;
-	border-color: #B4BAC0;
+	color: #FFF;
+	background-color: #000000;
+	border-color: #2370B6;
 }
 
 .pagination li.ellipsis span {
@@ -205,9 +204,9 @@ dl.details dd {
 }
 
 .pagination li a:hover, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	border-color: #368AD2;
-	background-color: #368AD2;
-	color: #FFFFFF;
+	border-color: #F0E80A;
+	background-color: #000000;
+	color: #ffffff;
 }
 
 .pagination li.next a, .pagination li.previous a, .pagination li.page-jump a {
@@ -909,7 +908,7 @@ ul.cplist {
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
 {
 	#navigation a, .rtl #navigation a {
-		background: #B2C2CF;
+		background: #272727;
 	}
 }
 
@@ -951,19 +950,19 @@ dl.mini dt {
 }
 
 .pmlist li.pm_marked_colour, .pm_marked_colour {
-	border-color: #FF6600;
+	border-color: #F0E80A;
 }
 
 .pmlist li.pm_replied_colour, .pm_replied_colour {
-	border-color: #A9B8C2;
+	border-color: #2370B6;
 }
 
 .pmlist li.pm_friend_colour, .pm_friend_colour {
-	border-color: #5D8FBD;
+	border-color: #007700;
 }
 
 .pmlist li.pm_foe_colour, .pm_foe_colour {
-	border-color: #000000;
+	border-color: #DD0000;
 }
 
 /* Avatar gallery */
@@ -1018,7 +1017,7 @@ fieldset.fields2 dl:hover dt label {
 
 /* Quick-login on index page */
 fieldset.quick-login input.inputbox {
-	background-color: #F2F3F3;
+	background-color: #000;
 }
 
 /* Posting page styles
