@@ -1086,7 +1086,7 @@ a.button2, input.button2, input.button3 {
 
 /* <a> button in the style of the form buttons */
 a.button1, a.button2 {
-	color: #000000;
+	color: #FFFFFF;
 }
 
 /* Hover states */
@@ -1112,7 +1112,7 @@ input.disabled {
 /* jQuery popups
 ---------------------------------------- */
 .phpbb_alert {
-	background-color: #FFFFFF;
+	background-color: #000000;
 	border-color: #999999;
 }
 .phpbb_alert .alert_close {
@@ -1124,7 +1124,7 @@ input.disabled {
 
 #loading_indicator {
 	background-color: #000000;
-	background-image: url("./images/loading.png");
+	background-image: url("./images/loading.gif");
 }
 
 .dropdown-extended ul li {
