@@ -73,6 +73,7 @@ hr {
 }
 
 .panel {
+	border-top: 0px !important;
 	background: #131313; /* Show a solid color for older browsers */
 	color: #FFF;
 }
@@ -788,7 +789,7 @@ ul.cplist {
 }
 
 .panel-container .panel li.header dd, .panel-container .panel li.header dt {
-	color: #000000;
+	color: #FFFFFF;
 }
 
 .panel-container table.table1 thead th {
@@ -985,7 +986,7 @@ Colours and backgrounds for forms.css
 select {
 	color: #D0D0D0;
 	border: 1px solid #2370B6;
-	background-color: #000;
+	background-color: #222;
 }
 
 label {
@@ -1017,7 +1018,7 @@ fieldset.fields2 dl:hover dt label {
 
 /* Quick-login on index page */
 fieldset.quick-login input.inputbox {
-	background-color: #000;
+	background-color: #222;
 }
 
 /* Posting page styles
@@ -1032,7 +1033,7 @@ fieldset.quick-login input.inputbox {
 .inputbox {
 	color: #D0D0D0;
 	border: 1px solid #2370B6;
-	background-color: #000;
+	background-color: #222;
 }
 
 .inputbox:-moz-placeholder {
@@ -1066,7 +1067,7 @@ fieldset.quick-login input.inputbox {
 
 a.button1, input.button1, input.button3, a.button2, input.button2 {
 	color: #FFFFFF;
-	background-color: #000000;
+	background-color: #222222;
 	background-image: url("./images/bg_button.png");
 	
 }
