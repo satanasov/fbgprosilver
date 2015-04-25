@@ -799,7 +799,7 @@ ul.cplist {
 
 #cp-main .pm-message {
 	border-color: #DBDEE2;
-	background-color: #FFFFFF;
+	background-color: #272727;
 }
 
 /* CP tabbed menu
@@ -925,7 +925,11 @@ ul.cplist {
 }
 
 #cp-main .pm {
-	background-color: #FFFFFF;
+	background-color: #272727;
+	border-top: 1px solid #105289;
+	border-left: 1px solid #105289;
+	border-right: 1px solid #105289;
+	border-bottom: 1px solid #105289;
 }
 
 /* Friends list */
@@ -941,7 +945,7 @@ dl.mini dt {
 ----------------------------------------*/
 /* PM Message history */
 .current {
-	color: #000000 !important;
+	color: #2370B6 !important;
 }
 
 /* PM marking colours */
