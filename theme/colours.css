@@ -765,6 +765,7 @@ Colours and backgrounds for buttons.css
 .topic_unread_locked_mine										{ background-image: url("./images/topic_unread_locked_mine.png"); }
 
 .pm_read														{ background-image: url("./images/topic_read.png"); }
+.pm_replied_colour  >.pm_read													{ background-image: url("./images/topic_read_mine.png"); }
 .pm_unread														{ background-image: url("./images/topic_unread.png"); }
 
 /*
