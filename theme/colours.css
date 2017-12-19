@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-	color: #000000;
+	color: #ffffff;
 }
 
 h3 {
@@ -123,12 +123,12 @@ a:hover {
 }
 
 .panel {
-	border: 1px solid #105289;
- 	background: #222; /* Show a solid color for older browsers */
- 	background: -o-linear-gradient(#272727, #131313);
+	/*border: 1px solid #105289; */
+ 	background: #131313; /* Show a solid color for older browsers */
+ 	/*background: -o-linear-gradient(#272727, #131313);
  	background: -webkit-linear-gradient(#272727, #131313);
  	background: -moz-linear-gradient(#272727, #131313);
- 	background: linear-gradient(#272727, #131313);
+ 	background: linear-gradient(#272727, #131313);*/
  	color: #FFF;}
 
 .post:target .content {
@@ -683,17 +683,17 @@ Colours and backgrounds for buttons.css
 ---------------------------------------- */
 
 .pagination li a {
-	background: #ECEDEE;
+	background: #000000;
 	filter: none;
-	border-color: #B4BAC0;
+	border-color: #2370B6;
 	box-shadow: none;
 	-webkit-box-shadow: none;
-	color: #5C758C;
+	color: #FFFFFF;
 }
 
 .pagination li.ellipsis span {
 	background: transparent;
-	color:	#000000;
+	color: #818181;
 }
 
 .pagination li.active span {
@@ -703,8 +703,8 @@ Colours and backgrounds for buttons.css
 }
 
 .pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	background: #368AD2;
-	border-color: #368AD2;
+	background: #000000;
+	border-color: #d2be63;
 	filter: none;
 	color: #FFFFFF;
 	text-shadow: none;
@@ -818,12 +818,12 @@ ul.cplist {
 }
 
 .panel-container .panel li.header dd, .panel-container .panel li.header dt {
-	color: #000000;
+	color: #FFFFFF;
 }
 
 .panel-container table.table1 thead th {
-	color: #333333;
-	border-bottom-color: #333333;
+	color: #FFFFFF;
+	border-bottom-color: #DBDEE2;
 }
 
 .cp-main .pm-message {
@@ -885,11 +885,11 @@ ul.cplist {
 
 /* Link styles for the sub-section links */
 .navigation a {
-	color: #333;
-	background: #CADCEB; /* Old browsers */ /* FF3.6+ */
-	background: -webkit-linear-gradient(left, #B4C4D1 50%, #CADCEB 100%);
-	background: linear-gradient(to right, #B4C4D1 50%,#CADCEB 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B4C4D1', endColorstr='#CADCEB',GradientType=1 ); /* IE6-9 */
+	color: #e3e3e3;
+	background: #272727; /* Old browsers */ /* FF3.6+ */
+	/*background: -webkit-linear-gradient(left, #131313 50%, #272727 100%);
+	background: linear-gradient(to right, #131313 50%,#272727 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#272727',GradientType=1 ); /* IE6-9 */
 }
 
 .rtl .navigation a {
@@ -900,13 +900,13 @@ ul.cplist {
 }
 
 .navigation a:hover {
-	background: #AABAC6;
+	background: #272727;
 	color: #BC2A4D;
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 
 .navigation .active-subsection a {
-	background: #F9F9F9;
+	background: #131313;
 	color: #D31141;
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -925,20 +925,20 @@ ul.cplist {
 /* Preferences pane layout
 ----------------------------------------*/
 .panel-container h2 {
-	color: #333333;
+	color: #FFFFFF;
 }
 
 .panel-container .panel {
-	background-color: #F9F9F9;
+	background-color: #131313;
 }
 
 .cp-main .pm {
-	background-color: #FFFFFF;
+	background-color: #131313;
 }
 
 /* Friends list */
 .cp-mini {
-	background-color: #EEF5F9;
+	background-color: #131313;
 }
 
 dl.mini dt {
@@ -959,19 +959,19 @@ dl.mini dt {
 }
 
 .pmlist li.pm_marked_colour, .pm_marked_colour {
-	border-color: #FF6600;
+	border-color: #f8ff2e;
 }
 
 .pmlist li.pm_replied_colour, .pm_replied_colour {
-	border-color: #A9B8C2;
+	border-color: #2370B6;
 }
 
 .pmlist li.pm_friend_colour, .pm_friend_colour {
-	border-color: #5D8FBD;
+	border-color: #007700;
 }
 
 .pmlist li.pm_foe_colour, .pm_foe_colour {
-	border-color: #000000;
+	border-color: #DD0000;;
 }
 
 /* Avatar gallery */
@@ -1007,7 +1007,7 @@ option.disabled-option {
 /* Definition list layout for forms
 ---------------------------------------- */
 dd label {
-	color: #333;
+	color: #D0D0D0;
 }
 
 fieldset.fields1 {
@@ -1160,10 +1160,10 @@ input.disabled {
 }
 
 .dropdown-extended .header {
-	background-color: #F1F8FF; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #F1F8FF 0%, #CADCEB 100%);
-	background-image: linear-gradient(to bottom, #F1F8FF 0%,#CADCEB 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1F8FF', endColorstr='#CADCEB',GradientType=0 ); /* IE6-9 */
+	background-color: #105289; /* Old browsers */ /* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, #105289 0%, #1066a3 100%);
+	background-image: linear-gradient(to bottom, #105289 0%,#1066a3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#105289', endColorstr='#1066a3',GradientType=0 ); /* IE6-9 */
 }
 
 .dropdown .pointer {
