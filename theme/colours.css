@@ -619,8 +619,29 @@ fieldset.polls dd div {
 	font-weight: bold;
 }
 
-.online {
-	background-image: url("./en/icon_user_online.gif");
+.online {}
+
+.online_bar {
+	border: 1px solid #0D4473;
+	background: rgba(13, 68, 115, 0.5);
+	position: absolute;
+	transform: rotate(-45deg);
+	width: 140px;
+	text-align: center;
+	margin-top: 32px;
+	margin-left: -36px;
+	border-radius: 200px 200px 0px 0px;
+}
+.online_bar_post {
+	border: 1px solid #0D4473;
+	background: rgba(13, 68, 115, 0.5);
+	position: absolute;
+	transform: rotate(-45deg);
+	width: 140px;
+	text-align: center;
+	margin-top: 28px;
+	margin-left: -28px;
+	border-radius: 200px 200px 0px 0px;
 }
 
 dd.profile-warnings {
@@ -1025,7 +1046,7 @@ fieldset.fields2 dl:hover dt label {
 
 /* Quick-login on index page */
 fieldset.quick-login input.inputbox {
-	background-color: #F2F3F3;
+	background-color: #272727;
 }
 
 /* Posting page styles

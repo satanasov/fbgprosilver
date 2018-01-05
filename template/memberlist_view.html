@@ -1,9 +1,12 @@
 <!-- INCLUDE overall_header.html -->
 
+
 <h2 class="memberlist-title">{PAGE_TITLE}</h2>
-<div id="tabs" class="sub-panels" role="tablist" data-show-panel="main-panel">
+
+
+<div id="tabs" class="tabs">
 	<ul>
-		<li id="main-panel-tab" class="tab">
+		<li id="main-panel-tab" class="tab activetab">
 			<a aria-control="main-panel" role="tab" data-subpanel="main-panel" href="#tabs"><span>Main</span></a>
 		</li>
 		<!-- EVENT fbgprosilver_memberlist_view_tabs -->
@@ -17,13 +20,19 @@
 <div class="panel bg1<!-- IF S_ONLINE --> online<!-- ENDIF -->">
 	<div class="inner">
 
-	<!-- IF AVATAR_IMG -->
 		<dl class="left-box">
+			<!-- IF S_ONLINE -->
+			<div class="online_bar">
+				<span>{L_ONLINE}</span>
+			</div>
+			<!-- ENDIF -->
+	<!-- IF AVATAR_IMG -->
+
 			<dt class="profile-avatar">{AVATAR_IMG}</dt>
 			<!-- IF RANK_TITLE --><dd style="text-align: center;">{RANK_TITLE}</dd><!-- ENDIF -->
 			<!-- IF RANK_IMG --><dd style="text-align: center;">{RANK_IMG}</dd><!-- ENDIF -->
-		</dl>
 	<!-- ENDIF -->
+		</dl>
 
 	<dl class="left-box details profile-details">
 		<dt>{L_USERNAME}{L_COLON}</dt>
