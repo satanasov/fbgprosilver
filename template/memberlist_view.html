@@ -18,14 +18,17 @@
 <form method="post" action="{S_PROFILE_ACTION}" id="viewprofile">
 <div id="main-panel">
 <div class="panel bg1<!-- IF S_ONLINE --> online<!-- ENDIF -->">
+	<!-- IF S_ONLINE -->
+	<div class="online_container_up">
+		<div class="online_bar">
+			<span>{L_ONLINE}</span>
+		</div>
+	</div>
+
+	<!-- ENDIF -->
 	<div class="inner">
 
 		<dl class="left-box">
-			<!-- IF S_ONLINE -->
-			<div class="online_bar">
-				<span>{L_ONLINE}</span>
-			</div>
-			<!-- ENDIF -->
 	<!-- IF AVATAR_IMG -->
 
 			<dt class="profile-avatar">{AVATAR_IMG}</dt>

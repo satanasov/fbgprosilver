@@ -622,6 +622,11 @@ fieldset.polls dd div {
 .online {}
 
 .online_container {
+	width: 77%;
+	position: absolute;
+}
+
+.online_container {
 	width: 100%;
 	position: absolute;
 }
@@ -629,12 +634,12 @@ fieldset.polls dd div {
 .online_bar {
 	border: 1px solid #0D4473;
 	background: rgba(13, 68, 115, 0.5);
-	position: absolute;
-	transform: rotate(-45deg);
+	transform: rotate(45deg);
 	width: 140px;
 	text-align: center;
 	margin-top: 32px;
-	margin-left: -36px;
+	margin-right: -36px;
+	float: right;
 	border-radius: 200px 200px 0px 0px;
 }
 .online_bar_post {
