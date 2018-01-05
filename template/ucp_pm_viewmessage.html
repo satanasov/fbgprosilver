@@ -23,14 +23,15 @@
 
 
 <div id="post-{MESSAGE_ID}" class="post pm has-profile<!-- IF S_POST_UNAPPROVED or S_POST_REPORTED --> reported<!-- ENDIF --><!-- IF S_ONLINE --> online<!-- ENDIF -->">
-<div class="inner">
-
-	<dl class="postprofile" id="profile{MESSAGE_ID}">
-		<!-- IF S_ONLINE -->
+	<!-- IF S_ONLINE -->
+	<div class="online_container">
 		<div class="online_bar_post">
 			<span>{L_ONLINE}</span>
 		</div>
-		<!-- ENDIF -->
+	</div>
+	<!-- ENDIF -->
+	<div class="inner">
+	<dl class="postprofile" id="profile{MESSAGE_ID}">
 		<dt class="<!-- IF RANK_TITLE or RANK_IMG -->has-profile-rank<!-- ELSE -->no-profile-rank<!-- ENDIF --> <!-- IF AUTHOR_AVATAR -->has-avatar<!-- ELSE -->no-avatar<!-- ENDIF -->">
 			<div class="avatar-container">
 				<!-- EVENT ucp_pm_viewmessage_avatar_before -->
