@@ -504,7 +504,14 @@
 	}
 
 	.online {
-		background-size: 40px;
+	}
+
+	.online_container_post {
+		position: unset;
+	}
+
+	.online_bar_post {
+		margin-right: -45px;
 	}
 
 	/* Misc stuff
